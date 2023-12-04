@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Tests_for_QTrip_Regression" class="navigator-link">
+              <span class="suite-name border-failed">Tests for QTrip Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Tests_for_QTrip_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Tests_for_QTrip_Regression" class="hide-methods failed suite-Tests_for_QTrip_Regression"> (hide)</a> <!-- hide-methods failed suite-Tests_for_QTrip_Regression -->
+                      <a href="#" panel-name="suite-Tests_for_QTrip_Regression" class="show-methods failed suite-Tests_for_QTrip_Regression"> (show)</a> <!-- show-methods failed suite-Tests_for_QTrip_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Tests_for_QTrip_Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tests_for_QTrip_Regression" title="qtrip_qa.tests.test_case03" class="method navigator-link" hash-for-method="TestCase03(TC3_3@gmail.com, abc@123, Bangkok, Tifwales Ferry, prabhu, 26-12-2025, 1)">TestCase03(TC3_3@gmail.com, abc@123, Bangkok, Tifwales Ferry, prabhu, 26-12-2025, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tests_for_QTrip_Regression" title="qtrip_qa.tests.test_case03" class="method navigator-link" hash-for-method="TestCase03(TC3_1@gmaill.com, abc@123, Bengaluru, Niaboytown, palam, 16-11-2025, 2)">TestCase03(TC3_1@gmaill.com, abc@123, Bengaluru, Niaboytown, palam, 16-11-2025, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Tests_for_QTrip_Regression" title="qtrip_qa.tests.test_case03" class="method navigator-link" hash-for-method="TestCase03(TC3_2@gmail.com, abc@123, Singapore, Grand Ashland, biden, 26-11-2025, 4)">TestCase03(TC3_2@gmail.com, abc@123, Singapore, Grand Ashland, biden, 26-11-2025, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Tests_for_QTrip_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Tests_for_QTrip_Regression" class="panel Tests_for_QTrip_Regression">
+          <div class="suite-Tests_for_QTrip_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qtrip_qa.tests.test_case03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(TC3_3@gmail.com, abc@123, Bangkok, Tifwales Ferry, prabhu, 26-12-2025, 1)">
+                  </a> <!-- TestCase03(TC3_3@gmail.com, abc@123, Bangkok, Tifwales Ferry, prabhu, 26-12-2025, 1) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(TC3_3@gmail.com,abc@123,Bangkok,Tifwales Ferry,prabhu,26-12-2025,1)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 20 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at qtrip_qa.pages.Home.clickRegister(Home.java:46)
+	at qtrip_qa.tests.test_case03.TestCase03(test_case03.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Register&apos;]&quot;}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.1&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2b00e21109d18197bf2c2ea247b7012c, findElement {using=xpath, value=//a[text()=&apos;Register&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/sy/8y4186_14h7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.190:4444/ses..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b00e21109d18197bf2c2ea247b7012c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:71)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
+	... 36 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that adventure booking and cancellation works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(TC3_1@gmaill.com, abc@123, Bengaluru, Niaboytown, palam, 16-11-2025, 2)">
+                  </a> <!-- TestCase03(TC3_1@gmaill.com, abc@123, Bengaluru, Niaboytown, palam, 16-11-2025, 2) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(TC3_1@gmaill.com,abc@123,Bengaluru,Niaboytown,palam,16-11-2025,2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failure while verifying the number of reservations expected [true] but found [false]
+	at qtrip_qa.tests.test_case03.TestCase03(test_case03.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that adventure booking and cancellation works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(TC3_2@gmail.com, abc@123, Singapore, Grand Ashland, biden, 26-11-2025, 4)">
+                  </a> <!-- TestCase03(TC3_2@gmail.com, abc@123, Singapore, Grand Ashland, biden, 26-11-2025, 4) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(TC3_2@gmail.com,abc@123,Singapore,Grand Ashland,biden,26-11-2025,4)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 20 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at qtrip_qa.pages.Home.clickRegister(Home.java:46)
+	at qtrip_qa.tests.test_case03.TestCase03(test_case03.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Register&apos;]&quot;}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.1&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2b00e21109d18197bf2c2ea247b7012c, findElement {using=xpath, value=//a[text()=&apos;Register&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/sy/8y4186_14h7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.190:4444/ses..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b00e21109d18197bf2c2ea247b7012c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:71)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
+	... 36 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that adventure booking and cancellation works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Tests_for_QTrip_Regression-class-failed -->
+        </div> <!-- panel Tests_for_QTrip_Regression -->
+        <div panel-name="test-xml-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/tomer/crio/maven/QTRIP_QA/QTRIP_QA/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Tests for QTrip Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BookingFlow&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qtrip_qa.tests.test_case03&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookingFlow --&gt;
+&lt;/suite&gt; &lt;!-- Tests for QTrip Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Tests for QTrip Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BookingFlow (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Tests for QTrip Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Booking and Cancellation Flow</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase03</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Tests for QTrip Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Tests_for_QTrip_Regression');
+function tableData_Tests_for_QTrip_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestCase03')
+data.setCell(0, 2, 'qtrip_qa.tests.test_case03')
+data.setCell(0, 3, 47405);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestCase03')
+data.setCell(1, 2, 'qtrip_qa.tests.test_case03')
+data.setCell(1, 3, 20369);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCase03')
+data.setCell(2, 2, 'qtrip_qa.tests.test_case03')
+data.setCell(2, 3, 20102);
+window.suiteTableData['Tests_for_QTrip_Regression']= { tableData: data, tableDiv: 'times-div-Tests_for_QTrip_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Tests_for_QTrip_Regression">
+              </div> <!-- times-div-Tests_for_QTrip_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Tests for QTrip Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Tests_for_QTrip_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qtrip_qa.tests.test_case03</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupLogger</span>
+                <span class="method-start">1722 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">2037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase03(TC3_1@gmaill.com, abc@123, Bengaluru, Niaboytown, palam, 16-11-2025, 2)</span>
+                <span class="method-start">2295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentReportEnd(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">49708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">49712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase03(TC3_2@gmail.com, abc@123, Singapore, Grand Ashland, biden, 26-11-2025, 4)</span>
+                <span class="method-start">49713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentReportEnd(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">70085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">70086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase03(TC3_3@gmail.com, abc@123, Bangkok, Tifwales Ferry, prabhu, 26-12-2025, 1)</span>
+                <span class="method-start">70087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentReportEnd(public static void qtrip_qa.tests.test_case03.TestCase03(java.lang.String,java.lang.String,java.lang...)</span>
+                <span class="method-start">90191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90226 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

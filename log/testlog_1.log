@@ -1,0 +1,10 @@
+2023-12-04 01:52:25,242 [main] INFO qtrip_qa.DriverSingleton - ----------Starting the execution------------
+2023-12-04 01:52:25,247 [main] INFO qtrip_qa.DriverSingleton - Initializing the driver
+2023-12-04 01:52:26,790 [main] INFO qtrip_qa.DriverSingleton - Driver initialized : RemoteWebDriver: chrome on mac (2b00e21109d18197bf2c2ea247b7012c)
+2023-12-04 01:52:26,910 [main] INFO qtrip_qa.DriverSingleton - Creating an instance of driver
+2023-12-04 01:52:27,502 [main] INFO qtrip_qa.tests.test_case02 - Started the execution of TestCase03
+2023-12-04 01:52:52,540 [main] INFO qtrip_qa.tests.test_case02 - Completed the registration: false
+2023-12-04 01:52:56,831 [main] INFO qtrip_qa.tests.test_case02 - Completed the login: true
+2023-12-04 01:53:14,919 [main] INFO qtrip_qa.tests.test_case02 - Started the execution of TestCase03
+2023-12-04 01:53:35,293 [main] INFO qtrip_qa.tests.test_case02 - Started the execution of TestCase03
+2023-12-04 01:53:55,690 [main] INFO qtrip_qa.DriverSingleton - ----------Closing the execution-------------

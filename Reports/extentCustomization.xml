@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<extent-config>
+    <configuration>
+        <documentTitle>QTRIP TEST SUITE</documentTitle>
+        <protocol>http</protocol>
+        <theme>standard</theme>
+        <reportName align="center">
+            <message>Sanity tests for QTRIP</message>
+        </reportName>
+        <testViewChartLocation>bottom</testViewChartLocation>
+    </configuration>
+</extent-config>

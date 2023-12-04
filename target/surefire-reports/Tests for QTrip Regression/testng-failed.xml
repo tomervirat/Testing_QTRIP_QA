@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests for QTrip Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="BookingFlow(failed)" verbose="0">
+    <classes>
+      <class name="qtrip_qa.tests.test_case03">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="TestCase03" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setupLogger"/>
+          <include name="extentReportEnd"/>
+        </methods>
+      </class> <!-- qtrip_qa.tests.test_case03 -->
+    </classes>
+  </test> <!-- BookingFlow(failed) -->
+</suite> <!-- Failed suite [Tests for QTrip Regression] -->
